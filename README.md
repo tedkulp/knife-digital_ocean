@@ -75,7 +75,7 @@ __Example__
                                       --size 66 \
                                       --ssh-keys 1234,1235 \
                                       --bootstrap \
-                                      --run-list "role[base],role[webserver]"
+                                      --run-list "role[base],role[webserver]" \
                                       --private_networking
 ```
 
@@ -88,8 +88,8 @@ __Syntax__
                                       --size <SIZE ID> \
                                       --ssh-keys <SSH KEY-ID(s), comma-separated> \
                                       --bootstrap \
-                                      --run-list "<RUNLIST>"
-                                      --private_networking (optional)
+                                      --run-list "<RUNLIST>" \
+                                      --private_networking
 ```
 
 __Short Syntax__
@@ -158,6 +158,8 @@ OK
 ID  Name       
 1   New York 1 
 2   Amsterdam 1
+3   San Francisco 1
+4   New York 2
 ```
 
 ### List sizes (instance types)
