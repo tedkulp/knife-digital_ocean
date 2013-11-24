@@ -61,7 +61,7 @@ class Chef
 
       option :private_networking,
         :long        => "--private_networking",
-        :description => "Eenables a private network interface if the region supports private networking",
+        :description => "Enables a private network interface if the region supports private networking",
         :default     => false
 
       option :identity_file,
